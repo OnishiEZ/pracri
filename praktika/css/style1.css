@@ -1,0 +1,288 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Black.ttf);
+    src: url(../fonts/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto-Light.ttf);
+    src: url(../fonts/Roboto-Medium.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    justify-content: center;
+    text-align: center;
+}
+
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+    opacity: 0.8;
+    border-bottom: 1px solid black;
+}
+
+header .seredina {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+header .seredina a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+header .seredina a:hover {
+    color: #FF8100;
+    transition: 0.5s;
+}
+
+
+header .ic i  {
+    font-size: 22px;
+    color: black;
+}
+
+header .ic i:hover {
+    color: #FF8100;
+    transition: 0.5s;
+}
+
+header div a {
+    text-decoration: none;
+    color: black;
+}
+
+header div a:hover {
+    color: #FF8100;
+    transition: 0.5s;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 800px 1fr;
+}
+
+
+main .levo {
+    display: grid;
+}
+
+
+main .levo .verx {
+    display: grid;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    padding: 60px 30px;
+    grid-template-columns: 1fr;
+    row-gap: 3vh;
+    justify-items: center;
+   
+}
+
+main .levo .verx h3 {
+    font-size: 25px;
+    border: 1px solid #FF8100;
+    align-items: center;
+    display: grid;
+    padding: 30px 60px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+main .levo div button{
+    width: 155px;
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+main .levo div button:hover {
+    color: #fff;
+    background-color: #FF8100;
+    transition: 0.5s;
+}
+
+main .levo .niz {
+    display: grid;
+    border-right: 1px solid black;
+    padding: 60px 30px;
+    grid-template-columns: 1fr;
+    row-gap: 3vh;
+    justify-items: center;
+}
+
+
+main .levo .niz h3 {
+    font-size: 25px;
+    border: 1px solid #FF8100;
+    align-items: center;
+    display: grid;
+    padding: 30px 78px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+main .levo .niz .brend {
+    padding: 25px 55px;
+}
+
+.pravo {
+    padding: 3vh;
+}
+
+.pravo .p {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: start;
+}
+
+.pravo .p h3 {
+    padding: 20px 20px;
+    background-color: #FF8100;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.pravo .p h3:last-child {
+    color: black;
+    border: 1px solid #FF8100;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.setki {
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    row-gap: 10vh;
+    justify-items: center;
+    padding-right: 30vh;
+}
+
+.setki div {
+    display: grid;
+    row-gap: 3vh;
+    border: 1px solid black;
+    width: 280px;
+    padding: 50px 50px;
+    border-radius: 10px;
+    justify-items: center;
+}
+
+.setki div p {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.setki div a {
+    text-decoration: none;
+    color: #FF8100;
+    background-color: #fff;
+    border: 1px solid #FF8100;
+    padding: 15px 30px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.setki div:hover {
+    scale: 0.9;
+    transition: 0.5s;
+}
+
+.setki div a:hover {
+    color: white;
+    background-color: #FF8100;
+    transition: 0.5s;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items:center;
+    background-color: #000000;
+    justify-items: center;
+}
+
+
+.kor, .main, .sos {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1vh;
+    padding: 30px 30px;
+}
+
+.kor h2 {
+    color: white;
+    padding-right: 8vh;
+}
+
+.kor p {
+    width: 500px;
+    padding-left: 9vh;
+    text-align: left;
+    color: white;
+}
+
+.main h2 {
+    padding-bottom: 10px;
+}
+
+.main h2 {
+    color: white;
+}
+
+.main a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.main a:hover {
+    color: #FF8100;
+    transition: 0.5s;
+}
+
+.sos {
+    display: grid;
+    height: 70%;
+    justify-items: center;
+    align-items: center;
+}
+
+.sos h2 {
+    color: white;
+}
+
+.sos .ico {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 40px;
+}
+
+
+.sos .ico a {
+    text-decoration: none;
+    color: black;
+}
+
+.sos .ico a:hover {
+    color: #FF8100;
+    transition: 0.5s;
+}

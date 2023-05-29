@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Black.ttf);
+    src: url(../fonts/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto-Light.ttf);
+    src: url(../fonts/Roboto-Medium.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    justify-content: center;
+    text-align: center;
+}
+
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+    opacity: 0.8;
+    border-bottom: 1px solid black;
+}
+
+header .seredina {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+header .seredina a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+header .seredina a:hover {
+    color: #FF8100;
+    transition: 0.5s;
+}
+
+
+header .ic i  {
+    font-size: 22px;
+    color: black;
+}
+
+header .ic i:hover {
+    color: #FF8100;
+    transition: 0.5s;
+}
+
+header div a {
+    text-decoration: none;
+    color: black;
+}
+
+header div a:hover {
+    color: #FF8100;
+    transition: 0.5s;
+}
+
+.verx {
+    display: grid;
+    grid-template-columns: repeat(2, 750px);
+    align-items: center;
+    justify-items: center;
+    padding-top: 12vh;
+
+}
+
+.verx div {
+    display: grid;
+    grid-template-columns: 280px;
+    row-gap: 40px;
+    
+}
+
+.verx div h2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.verx div p {
+    font-size: 25px;
+    border: 1px solid #FF8100;
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: #FF8100;
+}
+
+.verx div button {
+    padding: 20px 60px;
+    background-color: #FF8100;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.niz {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr 1px 1fr;
+    padding-top: 30vh;
+    justify-items: center;
+    column-gap: 100px;
+    padding-left: 8vh;
+    padding-right: 8vh;
+    
+}
+
+
+.niz div h2 {
+    font-size: 30px;
+    background-color: #ffffff;
+    border: 1px solid #FF8100;
+    border-radius: 5px;
+    color: #FF8100;
+    font-weight: 400;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.niz div p{
+    padding: 40px 0 0 0;
+}
+
+
+
+.border {
+    border: 1px solid rgb(0, 0, 0);
+    height: 300px;
+    
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items:center;
+    background-color: #000000;
+    justify-items: center;
+}
+
+
+.kor, .main, .sos {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1vh;
+    padding: 30px 30px;
+}
+
+.kor h2 {
+    color: white;
+    padding-right: 8vh;
+}
+
+.kor p {
+    width: 500px;
+    padding-left: 9vh;
+    text-align: left;
+    color: white;
+}
+
+.main h2 {
+    padding-bottom: 10px;
+}
+
+.main h2 {
+    color: white;
+}
+
+.main a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.main a:hover {
+    color: #FF8100;
+    transition: 0.5s;
+}
+
+.sos {
+    display: grid;
+    height: 70%;
+    justify-items: center;
+    align-items: center;
+}
+
+.sos h2 {
+    color: white;
+}
+
+.sos .ico {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 40px;
+}
+
+
+.sos .ico a {
+    text-decoration: none;
+    color: black;
+}
+
+.sos .ico a:hover {
+    color: #FF8100;
+    transition: 0.5s;
+}
